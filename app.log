@@ -1,0 +1,217 @@
+2026-05-05 19:05:08,175 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-05 19:05:08,195 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.8.219:5000
+2026-05-05 19:05:08,196 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 19:05:08,197 - werkzeug - INFO -  * Restarting with stat
+2026-05-05 19:05:08,980 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-05 19:05:08,985 - werkzeug - WARNING -  * Debugger is active!
+2026-05-05 19:05:08,988 - werkzeug - INFO -  * Debugger PIN: 201-684-447
+2026-05-05 19:05:22,937 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:05:22] "GET / HTTP/1.1" 200 -
+2026-05-05 19:05:23,188 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:05:23] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-05-05 19:05:23,189 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:05:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-05-05 19:05:50,249 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:05:50] "GET / HTTP/1.1" 200 -
+2026-05-05 19:05:50,267 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:05:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:05:50,268 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:05:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:07:36,849 - root - INFO - Request: {'text_length': 428, 'language_override': None}
+2026-05-05 19:07:36,855 - __main__ - INFO - Text preprocessed: {'original_length': 428, 'cleaned_length': 417, 'token_count': 70, 'was_truncated': False}
+2026-05-05 19:07:38,281 - __main__ - INFO - Analysis completed: FAKE with 80% confidence
+2026-05-05 19:07:38,283 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:07:38] "POST /api/analyze HTTP/1.1" 200 -
+2026-05-05 19:07:38,306 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:07:38] "GET /api/history HTTP/1.1" 200 -
+2026-05-05 19:08:40,814 - root - INFO - Request: {'text_length': 428, 'language_override': 'en'}
+2026-05-05 19:08:40,815 - __main__ - INFO - Text preprocessed: {'original_length': 428, 'cleaned_length': 417, 'token_count': 70, 'was_truncated': False}
+2026-05-05 19:08:40,815 - __main__ - INFO - Analysis completed: FAKE with 80% confidence
+2026-05-05 19:08:40,816 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:08:40] "POST /api/analyze HTTP/1.1" 200 -
+2026-05-05 19:08:40,827 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:08:40] "GET /api/history HTTP/1.1" 200 -
+2026-05-05 19:09:06,856 - root - INFO - Request: {'text_length': 385, 'language_override': 'en'}
+2026-05-05 19:09:06,856 - __main__ - INFO - Text preprocessed: {'original_length': 385, 'cleaned_length': 376, 'token_count': 56, 'was_truncated': False}
+2026-05-05 19:09:06,857 - __main__ - INFO - Analysis completed: REAL with 85% confidence
+2026-05-05 19:09:06,857 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:09:06] "POST /api/analyze HTTP/1.1" 200 -
+2026-05-05 19:09:06,881 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:09:06] "GET /api/history HTTP/1.1" 200 -
+2026-05-05 19:32:44,889 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:32:44] "GET / HTTP/1.1" 200 -
+2026-05-05 19:32:44,940 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:32:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-05-05 19:32:44,946 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:32:44] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-05-05 19:39:24,454 - werkzeug - INFO -  * Detected change in 'C:\\Users\\naren\\OneDrive\\Desktop\\fake_news\\app.py', reloading
+2026-05-05 19:39:24,645 - werkzeug - INFO -  * Restarting with stat
+2026-05-05 19:39:25,640 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-05 19:39:25,646 - werkzeug - WARNING -  * Debugger is active!
+2026-05-05 19:39:25,653 - werkzeug - INFO -  * Debugger PIN: 201-684-447
+2026-05-05 19:39:32,574 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:32] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:32,760 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:32,761 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:35,617 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:35] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:35,638 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:35,640 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:36,512 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:36,539 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:36,541 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:36,711 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:36,733 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:36,735 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:36,897 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:36,922 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:36,925 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,140 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:37,170 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,173 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,366 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:37,399 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,401 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,553 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:37,590 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,591 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,759 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:37,792 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,797 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,939 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "GET / HTTP/1.1" 200 -
+2026-05-05 19:39:37,986 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:39:37,991 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:39:38,099 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:38,101 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:38] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:40,128 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:40,131 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:40] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:40,916 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:40,918 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:40] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:41,120 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:41,121 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:41] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:41,306 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:41,308 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:41] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:41,497 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:41,501 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:41] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:41,661 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:41,663 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:41] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:41,842 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:41,844 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:41] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:43,072 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:43,072 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:43] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:43,273 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:43,275 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:43] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:39:43,468 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:39:43,469 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:39:43] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:40:00,327 - flask-limiter - INFO - ratelimit 10 per 60 second (127.0.0.1) exceeded at endpoint: home
+2026-05-05 19:40:00,329 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:00] "[31m[1mGET / HTTP/1.1[0m" 429 -
+2026-05-05 19:40:00,385 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-05 19:40:36,249 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:36] "GET / HTTP/1.1" 200 -
+2026-05-05 19:40:36,280 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-05-05 19:40:36,505 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:36] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-05-05 19:40:36,567 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-05 19:40:38,675 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:38] "GET / HTTP/1.1" 200 -
+2026-05-05 19:40:38,981 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:40:38,997 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:40:39,917 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:39] "GET / HTTP/1.1" 200 -
+2026-05-05 19:40:39,937 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-05-05 19:40:40,168 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:40:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-05-05 19:42:25,064 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:42:25] "GET /chat HTTP/1.1" 200 -
+2026-05-05 19:42:25,182 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:42:25] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 19:42:25,298 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:42:25] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 19:44:27,689 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:44:27] "GET /chat HTTP/1.1" 200 -
+2026-05-05 19:44:27,711 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:44:27] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-05 19:44:27,948 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:44:27] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-05 19:48:18,727 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:18] "GET / HTTP/1.1" 200 -
+2026-05-05 19:48:18,745 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:18] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 19:48:18,746 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:18] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 19:48:21,970 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:21] "GET / HTTP/1.1" 200 -
+2026-05-05 19:48:22,003 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-05 19:48:22,005 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-05 19:48:22,544 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "GET / HTTP/1.1" 200 -
+2026-05-05 19:48:22,570 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-05 19:48:22,572 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-05 19:48:22,762 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "GET / HTTP/1.1" 200 -
+2026-05-05 19:48:22,805 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-05 19:48:22,808 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:22] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-05 19:48:23,215 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:23] "GET / HTTP/1.1" 200 -
+2026-05-05 19:48:23,268 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:23] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-05 19:48:23,270 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:23] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-05 19:48:32,638 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:32] "GET /chat HTTP/1.1" 200 -
+2026-05-05 19:48:32,656 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:32] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 19:48:32,886 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:32] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 19:48:35,928 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:35] "GET /chat HTTP/1.1" 200 -
+2026-05-05 19:48:35,939 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:35] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-05 19:48:36,190 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 19:48:36] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-05 20:03:04,612 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:04] "GET /chat HTTP/1.1" 200 -
+2026-05-05 20:03:04,631 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:04] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 20:03:04,855 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:04] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 20:03:50,443 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:50] "GET / HTTP/1.1" 200 -
+2026-05-05 20:03:50,618 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:50] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 20:03:50,619 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:50] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 20:03:50,727 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:03:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-05 20:10:33,060 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:10:33] "GET / HTTP/1.1" 200 -
+2026-05-05 20:10:33,239 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:10:33] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 20:10:33,240 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:10:33] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 20:10:33,333 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:10:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-05 20:13:02,794 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:13:02] "GET / HTTP/1.1" 200 -
+2026-05-05 20:13:02,813 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:13:02] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 20:13:02,814 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:13:02] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 20:23:05,916 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:23:05] "GET /chat HTTP/1.1" 200 -
+2026-05-05 20:23:05,926 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:23:05] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 20:23:06,169 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:23:06] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 20:58:56,378 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:58:56] "GET / HTTP/1.1" 200 -
+2026-05-05 20:58:56,414 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:58:56] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-05 20:58:56,415 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:58:56] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-05 20:58:56,527 - werkzeug - INFO - 127.0.0.1 - - [05/May/2026 20:58:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 07:42:32,732 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:42:32] "GET /chat HTTP/1.1" 200 -
+2026-05-06 07:42:32,772 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:42:32] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 07:42:32,959 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:42:32] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 07:47:51,148 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-06 07:47:51,202 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.9.150:5000
+2026-05-06 07:47:51,203 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-06 07:47:51,206 - werkzeug - INFO -  * Restarting with stat
+2026-05-06 07:47:51,978 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-06 07:47:51,983 - werkzeug - WARNING -  * Debugger is active!
+2026-05-06 07:47:51,986 - werkzeug - INFO -  * Debugger PIN: 143-166-010
+2026-05-06 07:48:11,764 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:48:11] "GET / HTTP/1.1" 200 -
+2026-05-06 07:48:11,889 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:48:11] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 07:48:12,027 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:48:12] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 07:48:12,088 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:48:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 07:52:12,317 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "GET / HTTP/1.1" 200 -
+2026-05-06 07:52:12,376 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "GET / HTTP/1.1" 200 -
+2026-05-06 07:52:12,451 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 07:52:12,453 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 07:52:12,476 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-06 07:52:12,480 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "[36mGET /static/js/chat.js HTTP/1.1[0m" 304 -
+2026-05-06 07:52:12,718 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 07:52:12,734 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 07:52:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 08:01:22,805 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:01:22] "GET / HTTP/1.1" 200 -
+2026-05-06 08:01:22,840 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:01:22] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 08:01:22,844 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:01:22] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:07:12,818 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:07:12] "GET / HTTP/1.1" 200 -
+2026-05-06 08:07:12,834 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:07:12] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 08:07:13,080 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:07:13] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:12:29,326 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:12:29] "GET / HTTP/1.1" 200 -
+2026-05-06 08:12:29,492 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:12:29] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 08:12:29,493 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:12:29] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:12:29,621 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:12:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 08:21:43,999 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:21:43] "GET / HTTP/1.1" 200 -
+2026-05-06 08:21:44,019 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:21:44] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-06 08:21:44,022 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:21:44] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:23:14,934 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:23:14] "GET / HTTP/1.1" 200 -
+2026-05-06 08:23:14,962 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:23:14] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-06 08:23:14,964 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:23:14] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:29:56,275 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-06 08:29:56,351 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.28.9.150:5000
+2026-05-06 08:29:56,352 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-06 08:29:56,357 - werkzeug - INFO -  * Restarting with stat
+2026-05-06 08:29:57,874 - __main__ - INFO - Starting Flask application on 0.0.0.0:5000
+2026-05-06 08:29:57,888 - werkzeug - WARNING -  * Debugger is active!
+2026-05-06 08:29:57,896 - werkzeug - INFO -  * Debugger PIN: 137-489-002
+2026-05-06 08:30:03,682 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:30:03] "GET / HTTP/1.1" 200 -
+2026-05-06 08:30:04,520 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:30:04] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 08:30:04,533 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:30:04] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:30:04,672 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:30:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-06 08:39:53,129 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:39:53] "GET / HTTP/1.1" 200 -
+2026-05-06 08:39:53,170 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:39:53] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 08:39:53,175 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:39:53] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:45:14,777 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:45:14] "GET / HTTP/1.1" 200 -
+2026-05-06 08:45:14,806 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:45:14] "GET /static/css/chat.css HTTP/1.1" 200 -
+2026-05-06 08:45:14,807 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:45:14] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:50:34,108 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:50:34] "GET / HTTP/1.1" 200 -
+2026-05-06 08:50:34,173 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:50:34] "[36mGET /static/css/chat.css HTTP/1.1[0m" 304 -
+2026-05-06 08:50:34,178 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:50:34] "GET /static/js/chat.js HTTP/1.1" 200 -
+2026-05-06 08:56:25,709 - werkzeug - INFO - 127.0.0.1 - - [06/May/2026 08:56:25] "GET / HTTP/1.1" 200 -
