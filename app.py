@@ -236,9 +236,12 @@ def internal_error_handler(e):
 
 
 if __name__ == '__main__':
-    logger.info(f"Starting Flask application on {config.Config.HOST}:{config.Config.PORT}")
+    import os
+    port = int(os.environ.get("PORT", config.Config.PORT))
+    host = os.environ.get("HOST", "0.0.0.0")
+    logger.info(f"Starting Flask application on {host}:{port}")
     app.run(
         debug=config.Config.DEBUG,
-        host=config.Config.HOST,
-        port=config.Config.PORT
+        host=host,
+        port=port
     )
